@@ -10,6 +10,9 @@ public class Listing {
     private String location_id;
     private int price_in_cents;
 
+    public Listing() {
+    }
+
     public Listing(String id, int length, int width, String location_id, int price_in_cents) {
         this.id = id;
         this.length = length;
